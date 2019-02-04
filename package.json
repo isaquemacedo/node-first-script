@@ -1,0 +1,23 @@
+{
+  "name": "node-first-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaquemacedo/node-first-script.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaquemacedo/node-first-script/issues"
+  },
+  "homepage": "https://github.com/isaquemacedo/node-first-script#readme",
+  "dependencies": {
+    "yargs": "^12.0.5"
+  }
+}

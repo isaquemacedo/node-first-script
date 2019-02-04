@@ -6,15 +6,15 @@
   3º Pasta
 */
 const fatorial = require('./fatorial')
+const yargs = require('yargs').demandOption('num').argv
 
 console.log('n-fatorial')
 
-/* console.log(`Executando o script a partir do diretorio ${process.cwd()}`)
-
-process.on('exit', () => {
-    console.log('script está prestes a terminar')
-}) */
-
-const num =  parseInt(process.argv[2])
+const num = yargs.num
 
 console.log(`O fatorial de ${num} é igual a ${fatorial(num)}`)
+
+/* 
+    Todos os lugares aonde o node busca os required's 
+*/
+console.log(module.paths)
