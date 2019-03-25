@@ -12,7 +12,5 @@ const yargs = require('yargs').demandOption('num').argv;
 console.log('===== n-fatorial =====');
 const num = yargs.num;
 console.log(`O fatorial de ${num} é igual a ${fatorial_1.fatorial(num)}`);
-/*
-    Todos os lugares aonde o node busca os required's
-*/
-console.log(module.paths);
+// console.log(module.paths)
+//# sourceMappingURL=main.js.map

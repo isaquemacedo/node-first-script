@@ -16,7 +16,4 @@ const num = yargs.num
 
 console.log(`O fatorial de ${num} é igual a ${fatorial(num)}`)
 
-/* 
-    Todos os lugares aonde o node busca os required's 
-*/
-console.log(module.paths)
+// console.log(module.paths)

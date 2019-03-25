@@ -5,3 +5,4 @@ exports.fatorial = (num) => {
         return 1;
     return num * exports.fatorial(num - 1);
 };
+//# sourceMappingURL=fatorial.js.map
